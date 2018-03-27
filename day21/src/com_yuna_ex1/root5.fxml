@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="177.0" prefWidth="600.0" 
+xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com_yuna_ex1.RootController">
+
+   <center>
+      <TableView fx:id="tableView" prefHeight="289.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn prefWidth="150.0" text="이름" resizable="false" />
+          <TableColumn  prefWidth="150.0" text="국어" resizable="false" />
+          <TableColumn prefWidth="150.0" text="수학" resizable="false" />
+          <TableColumn  prefWidth="150.0" text="영어" resizable="false" />
+        </columns>
+      </TableView>
+   </center>
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="50.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnAdd" alignment="CENTER" text="추가" textAlignment="CENTER" />
+            <Button fx:id="btnBarChart" alignment="CENTER" text="학생별 막대 그래프" textAlignment="CENTER" />
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>

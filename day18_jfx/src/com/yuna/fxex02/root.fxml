@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+
+<HBox xmlns:fx="http://javafx.com/fxml" >                      <!-- HBox 而⑦뀒�씠�꼫 �꽑�뼵 -->
+   <padding>                                                <!-- �븞履� �뿬諛� �꽕�젙 -->
+      <Insets top="10" right="10" bottom="10" left="10"/>
+   </padding>
+   <spacing>10</spacing>                                    <!-- 而⑦듃濡ㅺ컙�쓽 �닔�룊 媛꾧꺽 �꽕�젙 -->
+   
+   <children>                                                <!-- �옄�떇 而⑦듃濡� 異붽� -->
+      <TextField>                                             <!-- TextField �꽑�뼵 -->
+         <prefWidth>200</prefWidth>                        <!-- TextField�쓽 �룺 �꽕�젙 -->
+      </TextField>
+      
+      <Button >                                             <!-- Button 而⑦듃濡� �꽑�뼵 -->
+         <text>�확인</text>                                    <!-- Button 湲��옄 �꽕�젙 -->
+      </Button>
+   </children>
+</HBox>

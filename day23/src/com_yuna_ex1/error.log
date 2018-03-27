@@ -1,0 +1,12 @@
+--------------------------
+예외 발생시간 :Fri Feb 09 15:17:02 KST 2018
+java.lang.ArithmeticException: / by zero
+	at com_yuna_ex1.ExceptionEx14.main(ExceptionEx14.java:21)
+예외 메세지:/ by zero
+--------------------------
+--------------------------
+예외 발생시간 :Fri Feb 09 15:17:04 KST 2018
+java.lang.ArithmeticException: / by zero
+	at com_yuna_ex1.ExceptionEx14.main(ExceptionEx14.java:21)
+예외 메세지:/ by zero
+--------------------------

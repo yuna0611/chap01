@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" 
+prefHeight="300.0" prefWidth="280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+      <padding>
+      	<Insets top="10" right="10" bottom="10" left="10"/>
+      </padding>
+      
+      
+   <center>
+      <GridPane BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label  text="이름" />
+            <Label  text="국어" GridPane.rowIndex="1" />
+            <Label  text="수학" GridPane.rowIndex="2" />
+            <Label  text="영어" GridPane.rowIndex="3" />
+            <TextField id="txtName" prefHeight="23.0" prefWidth="90.0" GridPane.columnIndex="1" />
+            <TextField id="txtKor" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField id="txtMath" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField id="txtEng" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+         </children>
+      </GridPane>
+   </center>
+   
+   
+   
+   
+   <bottom>
+      <HBox alignment="CENTER" fillHeight="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="50.0" prefWidth="50.0" BorderPane.alignment="CENTER">
+      <padding>
+      	<Insets top="10" right="10" bottom="10" left="10"/>
+      </padding>
+      <spacing>25</spacing>
+      
+         <children>
+            <Button id="btnReg" text="저장" alignment="CENTER" textAlignment="CENTER" />
+            <Button id="btnCancel"  text="취소" textAlignment="CENTER"/>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </HBox>
+   </bottom>
+</BorderPane>
